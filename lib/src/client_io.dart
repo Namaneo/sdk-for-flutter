@@ -360,7 +360,6 @@ class ClientIO extends ClientBase with ClientMixin {
           ? callbackUrlScheme
           : "appwrite-callback-${config['project']!}",
       options: const FlutterWebAuth2Options(
-        intentFlags: ephemeralIntentFlags,
         useWebview: false,
       ),
     ).then((value) async {
