@@ -40,7 +40,8 @@ enum OAuthProvider {
   yandex(value: 'yandex'),
   zoho(value: 'zoho'),
   zoom(value: 'zoom'),
-  mock(value: 'mock');
+  githubImagine(value: 'githubImagine'),
+  googleImagine(value: 'googleImagine');
 
   const OAuthProvider({required this.value});
 
